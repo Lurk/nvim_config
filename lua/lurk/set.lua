@@ -31,3 +31,4 @@ vim.opt.colorcolumn = "80"
 -- use global clipboard
 vim.api.nvim_set_option("clipboard","unnamed")
 
+-- vim.o.winbar = ">>> %{%v:lua.require'nvim-navic'.get_location()%}"
