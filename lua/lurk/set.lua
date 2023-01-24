@@ -32,3 +32,6 @@ vim.opt.colorcolumn = "80"
 vim.api.nvim_set_option("clipboard","unnamed")
 
 -- vim.o.winbar = ">>> %{%v:lua.require'nvim-navic'.get_location()%}"
+
+-- autoformat on save
+vim.cmd [[autocmd BufWritePre * lua vim.lsp.buf.formatting_sync()]]
