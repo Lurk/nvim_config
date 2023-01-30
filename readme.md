@@ -4,7 +4,7 @@ It was not intented to be used by anyone except me. But there is nothing stoping
 
 ## keymaps
 
-|mode|keys      |effect                                 |
+|mode|keys      |action                                 |
 |----|----------|---------------------------------------|
 |n   |\<leader>pv|close current buffer and open file tree|
 |n   |\<C-.>     |code actions|
